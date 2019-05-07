@@ -4,8 +4,8 @@ This is the 1st project in Robotics Nanodegree Term 2.
 
 ## TODO
 
-[] Nvidia Digits Example
-[] Train my own Data using GoogleNets
-[] Evaluation
-[] Write-up
+- Nvidia Digits Example
+- Train my own Data using GoogleNets
+- Evaluation
+- Write-up
 
