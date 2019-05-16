@@ -20,15 +20,19 @@ The dataset, Flowers, contains 4242 images of flowers. The data collection is ba
 
 ## Results
 
-![](./latex/images/googlenet_supplied_training_loss.png)
+Supplied data:
 
-![](./latex/images/googlenet_flowers_training_loss.png)
+![](./latex/images/googlenet_training_loss.png)
 
 ![](./latex/images/evaluate_screenshot.png)
 
+Collected data:
+
+![](./latex/images/googlenet_flowers_training_loss.png)
+
 ## Discussion
 
-The provided evaluate function could be used on the supplied dataset. After 30 epochs' training, the trained model could reach as high as 75.40\% test accuracy on an unseen test dataset. The inference time were a little higher than 5 ms which was within 10 ms which meets the requirement. Both results are shown in Fig. \ref{fig:supplied-evaluate}.
+The provided evaluate function could be used on the supplied dataset. After 30 epochs' training, the trained model could reach as high as 75.40\% test accuracy on an unseen test dataset. The inference time were a little higher than 5 ms which was within 10 ms which meets the requirement.
 
 The test accuracy was much lower than the training accuracy which could happen for several reasons. Firstly, the dataset is small and the training is likely to overfit. The training accuracy is as high as around 100\% but it don't mean the similar performance when it comes to an unseen image. The issue could be addressed by data augmenting. Secondly, the model is over complicated for the data which also could lead to the overfit problem. One solution could be introducing more dropout layers. But in general, the performance is good enough for the robotic inference application.
 
